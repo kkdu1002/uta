@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>Program language</title>
+  <meta charset="utf-8">
+</head>
+<body>
+      <h1><a href="programming.html">프로그래밍 언어</a></h1>
+  <ul>
+    <li><a href="HTML.html">HTML1</a></li>
+    <li><a href="python.html">python</a></li>
+  </ul>
+  tuple   순서사용        값변경가능      값중복가능
+  list    순서사용        값변경불가능    값중복가능
+  set     순서없음        값변경가능      값중복불가능
+  dict    순서없음        값변경가능      값중복불가능
+  for i in range(초기값,마지막값,변하는값) 마지막값 전까지 동작
+  if,elif,else
+  while i < range 마지막값 전까지 동작
+  append(맨마지막에 추가) insert(추가위치,추가요소) extend(한번에 여러요소)
+  sort,sorted > 정렬함수
+  len(변수명) > 문자열의 길
+  ord 문자를 아스키코드로    chr 아스키코드를 문자로
+  try     except(try가 실패하면 실행)    finally(마지막으로 실행)
+  continue 계속
+  break 멈춤
+  del 전체삭제 remove(리스트안에있는값)지우기  pop()빼내기 clear() > []남기고 다삭제
+  count 갯수세기
+  index 제일 처음에 있는 애 찍
+  testSocket.send(no.encode()) 보낼때는 인코드
+  "Received data from client =", msg.decode()) 받을때는 디코드
+<body>
+</html>
